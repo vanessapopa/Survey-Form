@@ -19,7 +19,17 @@
         <input id="number" type="number" min="10" max="99" placeholder="Enter your age."></input>
         <br>
         <p>Which option best describes your current role?</p>
+        
         <select id="dropdown" required>
+            <option selected disabled>Select an option</option>
+            <option name="role" value="student">Student</option>
+            <option name="role" value="full-time-job">Full Time Job</option>
+            <option name="role" value="part-time-job">Part Time Job</option>
+            <option name="role" value="unemployed">Unemployed</option>
+        </select>
+
+        <p>Would you recommend this platform to others?</p>
+        <input type="radio" name="recommend" value="definitely" checked>Definitely</input>
     </form>
 
   </body>
