@@ -9,13 +9,13 @@
     <h1 id="title">Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
-        <label>Name: </label>
+        <label id="name-label">Name: </label>
         <input id="name" type="text" required placeholder="Enter your name."></input>
         <br> 
-        <label>Email: </label>
+        <label id="email-label">Email: </label>
         <input id="email" type="email" required placeholder="Enter your email."></input>
         <br>
-        <label>Age (optional): </label>
+        <label id="age-label">Age (optional): </label>
         <input id="number" type="number" min="10" max="99" placeholder="Enter your age."></input>
         <br>
         <p>Which option best describes your current role?</p>
@@ -40,7 +40,26 @@
             <option name="feature" value="projects">Projects</option>
             <option name="feature" value="community">Community</option>
             <option name="feature" value="mentorship">Mentorship</option>
+            <option name="feature" value="other">Other</option>
         </select>
+
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <input type="checkbox" name="improved" value="frontend-projects">Frontend Projects</input>
+        <input type="checkbox" name="improved" value="backend-projects">Backend Projects</input>
+        <input type="checkbox" name="improved" value="data-visualization">Data Visualization</input>
+        <input type="checkbox" name="improved" value="open-source-community">Open Source Community</input>
+        <input type="checkbox" name="improved" value="gitter-help-rooms">Gitter Help Rooms</input>
+        <input type="checkbox" name="improved" value="videos">Videos</input>
+        <input type="checkbox" name="improved" value="city-meetups">City Meetups</input>
+        <input type="checkbox" name="improved" value="wiki">Wiki</input>
+        <input type="checkbox" name="improved" value="forum">Forum</input>
+        <input type="checkbox" name="improved" value="additional-courses">Additional Courses</input>
+
+        <p>Any comments or suggestions?</p>
+        <textarea id="comments" placeholder="Enter your comments here..."></textarea>
+        <br>
+        <br>
+        <button id="submit" type="submit">Submit</button>
     </form>
 
   </body>
