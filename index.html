@@ -5,5 +5,22 @@
     <title>Survey Form</title>
   </head>
 
-  <body></body>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <label>Name: </label>
+        <input id="name" type="text" required placeholder="Enter your name."></input>
+        <br> 
+        <label>Email: </label>
+        <input id="email" type="email" required placeholder="Enter your email."></input>
+        <br>
+        <label>Age (optional): </label>
+        <input id="number" type="number" min="10" max="99" placeholder="Enter your age."></input>
+        <br>
+        <p>Which option best describes your current role?</p>
+        <select id="dropdown" required>
+    </form>
+
+  </body>
 </html>
