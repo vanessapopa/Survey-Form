@@ -5,7 +5,7 @@ A simple survey form web application built with HTML and CSS.
 This project was completed as part of freeCodeCamp's [Full Stack Developer curriculum](https://www.freecodecamp.org/learn/full-stack-developer/),  
 under the **HTML → Forms and Tables** section (“Build a Survey Form” lab). 
 
-The Survey Form was coded by me, following the user stories and design specifications provided by freeCodeCamp. All HTML and CSS were written from scratch to meet the defined requirements and pass the associated tests.
+The Survey Form was coded independantly, following the user stories and design specifications provided by freeCodeCamp. All HTML and CSS were written from scratch to meet the defined requirements and pass the associated tests.
 
 ## Description
 This project is a survey form that collects user feedback about a platform. It includes various input types including text fields, email validation, number input, dropdown menus, radio buttons, checkboxes, and a textarea for comments.
