@@ -2,7 +2,7 @@
 A simple survey form web application built with HTML and CSS.
 
 ## Preview
-<!-- Add screenshot here when ready -->
+<img width="1341" height="657" alt="Screenshot 2026-05-10 at 10 27 14 PM" src="https://github.com/user-attachments/assets/e2ec7cf9-de8e-4034-baae-b6a3a2345514" />
 
 ## Description
 This project is a survey form that collects user feedback about a platform. It includes various input types including text fields, email validation, number input, dropdown menus, radio buttons, checkboxes, and a textarea for comments.
